@@ -1,4 +1,4 @@
-package com.company;
+package main.java.ecosystem;
 
 
 // Print the digits of an integer

@@ -1,4 +1,4 @@
-package com.company;
+package main.java.ecosystem;
 
 
 // Calculate the sum of 1 + 2 + 3+ ... + 100

@@ -1,4 +1,4 @@
-package com.company.triangle.points.Ex8;
+package main.java.triangle;
 
 class Triangle {
 

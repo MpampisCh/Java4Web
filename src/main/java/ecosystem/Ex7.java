@@ -1,4 +1,4 @@
-package com.company;
+package main.java.ecosystem;
 
 
 // Print the first 30 numbers of the Fibonacci series

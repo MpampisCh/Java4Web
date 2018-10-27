@@ -1,4 +1,4 @@
-package com.company;
+package main.java.ecosystem;
 
 
 // Calculate aˆn given that a and n are integers

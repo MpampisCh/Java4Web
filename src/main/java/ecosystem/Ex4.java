@@ -1,4 +1,4 @@
-package com.company;
+package main.java.ecosystem;
 
 
 // Checks if a given integer is an odd or not

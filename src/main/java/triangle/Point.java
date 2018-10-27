@@ -1,6 +1,6 @@
-package com.company.triangle.points.Ex8;
+package main.java.triangle;
 
-//import com.company.triangle.points.Ex8;
+//import com.company.java.triangle.points.Ex8;
 
 public class Point {
 
