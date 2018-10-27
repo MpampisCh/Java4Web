@@ -2,22 +2,25 @@ package nio;
 
 // Copy a file using nio
 
-import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
-
-import static java.nio.file.StandardCopyOption.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 
 public class Ex6CopyFileNio {
 
-
     public static void main(String[] args) throws IOException{
 
-        File source = new File( "src/main/resources/fileExistence.txt");
-        File dest = new File( "src/main/resources/fileCopiedNio.txt");
+        try {
+            Path source = Paths.get("src/main/resources/fileExistence.txt");
+            Path dest = Paths.get( "src/main/resources/fileCopiedNio.txt");
 
-        Files.copy(source.toPath(),dest.toPath(),ATOMIC_MOVE,REPLACE_EXISTING,COPY_ATTRIBUTES);
+            Files.copy(source.toAbsolutePath(),dest.toAbsolutePath());
 
+        }catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
